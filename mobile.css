@@ -1,0 +1,113 @@
+  div.top{
+    background-color: black;
+    top: 0%;
+    height: 150%;
+    position: absolute;
+    left: 0px;
+    width: 110%;
+    display: block;
+  }
+
+  div.about{
+    background-color: cyan;
+    top: 150%;
+    height: 150%;
+    position: absolute;
+    left: 0%;
+    width: 110%;
+    display: block;
+  }
+
+  div.projects{
+    background-color: #415ca0;
+    margin-top: 0;
+    top: 350%;
+    height: 150%;
+    position: absolute;
+    left: 0%;
+    width: 110%;
+    display: block;
+  }
+
+  div.contact{
+    background-color: #4274f4;
+    margin-top: 0;
+    top: 500%;
+    height: 170%;
+    position: absolute;
+    left: 0px;
+    width: 110%;
+    display: block;
+  }
+  /* P/A */
+  p.h1{
+   font-size: 100px; 
+  }
+
+  p.footer{
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    top:670%
+  }
+
+  p.title{
+   color: lightblue;
+   font-size: 100px;
+   text-align: center;
+   margin: 10px;
+  }
+
+  p.normal{
+   font-size: 30px; 
+  }
+
+  a.alert{
+   color: red;
+   font-size: 30px;
+   text-align: center;
+   margin: 0px;
+  }
+  a.link{
+    font-size: 30px; 
+  }
+  /* Nav Bar Features*/
+
+  ul.nav{
+    list-style-type: none;
+    padding: 0px;
+    left: 0px;
+  }
+
+  li{
+   float: left; 
+  }
+
+  a.nav{
+    padding: 15px;
+    background-color: gray;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+  }
+
+  a.nav:hover{
+   background-color: red;
+   padding: 15px;
+   margin: 0px;
+  }
+
+  a.nav:active{
+   background-color: green;
+   padding: 15px;
+   margin: 1px;
+  }
+
+  /* Images */
+  img.top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+  }
